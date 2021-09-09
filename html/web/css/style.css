@@ -10,7 +10,7 @@
 #footer {border-top: 1px solid #eee;}
 
 /* ƒ¡≈Ÿ√˜ ∑π¿Ãæ∆øÙ */
-#cont_nav {background-color: #f6fdff;}
+#cont_nav {background-color: #f6fdff; display: none;}
 #cont_tit {background-color: #EAF7ED;}
 #cont_ban {background-color: #dceff7;}
 #cont_cont {background-color: #f6fdff;}
@@ -57,10 +57,10 @@ padding: 5px 20px 6px 20px; margin-top: -5px;}
 .nav > div ol li a:hover {text-decoration: underline;} 
 
 /* ≈∏¿Ã∆≤ */
-.title {position: relative;}
-.title h2 {font-size: 40px; text-align: center; padding: 5px 0; letter-spacing: 2px; color: #2c94c4; font-family: 'Nanum Brush Script', cursive;}
-.title .btn {position: absolute; top: 0; right: 0; width: 60px; height: 60px;
-background : url(../img/icon.png) no-repeat 0 -600px;}
+.tit {position: relative;}
+.tit h2 {font-size: 40px; text-align: center; padding: 5px 0; letter-spacing: 2px; color: #2c94c4; font-family: 'Nanum Brush Script', cursive;}
+.tit .btn {position: absolute; top: 0; right: 0; width: 60px; height: 60px; background : url(../img/icon.png) no-repeat 0 -600px;}
+.tit .btn.on{background-position: 0 -660px;}
 
 /* πË≥  */
 .ban {position: relative; padding: 24px 0 20px;}
@@ -231,4 +231,3 @@ background: #fff; border: 1px solid #bebebebe; }
 .footer li::before { content: ''; width: 1px; height: 12px; background: #ccc; position: absolute; left:0; top:2px;}
 .footer li:first-child::before { width: 0; height: 0;}
 .footer .w3c{margin: 15px;}
-
