@@ -59,3 +59,19 @@ function tabMenu(e){
 }
 $tab_list.find("ul>li>a").click(tabMenu).focus(tabMenu);
 
+// ·¹ÀÌ¾÷ÆË¾÷
+$(".layer").click(function(e) {
+    e.preventDefault();
+    // $("#layer").css("display", "block");
+    // $("#layer").show();
+    // $("#layer").fade();
+    $("#layer").slideToggle(200);
+});
+$(".close").click(function(e) {
+    e.preventDefault();
+    // $("#layer").css("display", "block");
+    // $("#layer").show();
+    // $("#layer").fadeOut();
+    $("#layer").slideToggle(200);
+});
+
